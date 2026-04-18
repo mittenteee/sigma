@@ -115,6 +115,16 @@ local Button = Tab:CreateButton({
 })
 
 Tab:CreateDivider()
+
+local Button = Tab:CreateButton({
+   Name = "Rivals",
+   Callback = function()
+   loadstring(game:HttpGet("https://rawscripts.net/raw/RIVALS-Kurby-Hub-ANTI-CHEAT-BYPASS-AND-INSANE-AIMBOT-202671"))()
+   end,
+})
+
+
+Tab:CreateDivider()
 local Section = Tab:CreateSection("Emergency Hamburg")
 
 
