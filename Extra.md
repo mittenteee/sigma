@@ -103,15 +103,3 @@ local Toggle = Tab:CreateToggle({
       end
    end,
 })
-
-
-local Tab = Window:CreateTab("Desync", nil) -- Title, Image
-local Section = Tab:CreateSection("Desync")
-
-
-local Button = Tab:CreateButton({
-   Name = "Desync",
-   Callback = function()
-   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Universal-FE-Desync-196417"))()
-   end,
-})
