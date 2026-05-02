@@ -54,6 +54,15 @@ Tab:CreateButton({
    end,
 })
 
+Tab:CreateDivider()
+
+Tab:CreateButton({
+   Name = "Forsaken",
+   Callback = function()
+     loadstring((game:HttpGet("https://raw.githubusercontent.com/mittenteee/sigma/refs/heads/main/Forsaken.md")))()
+   end,
+})
+
 local Tab = Window:CreateTab("Others", 4483362458)
 
 Tab:CreateButton({
@@ -157,6 +166,15 @@ local Button = Tab:CreateButton({
    Name = "Infinite Yield",
    Callback = function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+   end,
+})
+
+Tab:CreateDivider()
+
+local Button = Tab:CreateButton({
+   Name = "Lua Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Lua-hub-universal-75311"))()
    end,
 })
 
